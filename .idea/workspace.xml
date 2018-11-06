@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46fea238-016d-4e10-9356-c3b0628105f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/k8s-install-scripts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-install-scripts/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s" beforeDir="false" afterPath="$PROJECT_DIR$/k8s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,13 +39,15 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="etcd" value="1" />
-          <entry key="md" value="3" />
+          <entry key="md" value="5" />
+          <entry key="sh" value="1" />
           <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="3" />
+          <entry key="Bash" value="1" />
+          <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="1" />
         </counts>
@@ -63,10 +68,124 @@
     <favorites_list name="k8s" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etcd/READMEv2-etcdctl.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="300">
+                <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+                <folding>
+                  <element signature="e#461#690#0" />
+                  <element signature="e#692#708#0" />
+                  <element signature="e#709#801#0" />
+                  <element signature="e#962#1089#0" />
+                  <element signature="e#1091#1105#0" />
+                  <element signature="e#1106#1333#0" />
+                  <element signature="e#1335#1350#0" />
+                  <element signature="e#1351#1456#0" />
+                  <element signature="e#1458#1472#0" />
+                  <element signature="e#1473#1569#0" />
+                  <element signature="e#1571#1584#0" />
+                  <element signature="e#1585#1700#0" />
+                  <element signature="e#1702#1720#0" />
+                  <element signature="e#1721#1838#0" />
+                  <element signature="e#1840#1853#0" />
+                  <element signature="e#1854#1904#0" />
+                  <element signature="e#1906#1925#0" />
+                  <element signature="e#1926#1994#0" />
+                  <element signature="e#1996#2004#0" />
+                  <element signature="e#2006#2028#0" />
+                  <element signature="e#2066#2124#0" />
+                  <element signature="e#2202#2269#0" />
+                  <element signature="e#2353#2447#0" />
+                  <element signature="e#2525#2608#0" />
+                  <element signature="e#2682#2743#0" />
+                  <element signature="e#2793#2848#0" />
+                  <element signature="e#2921#2954#0" />
+                  <element signature="e#3025#3084#0" />
+                  <element signature="e#3133#3166#0" />
+                  <element signature="e#3169#3195#0" />
+                  <element signature="e#3261#3305#0" />
+                  <element signature="e#3379#3521#0" />
+                  <element signature="e#3523#3546#0" />
+                  <element signature="e#3593#3668#0" />
+                  <element signature="e#3737#3805#0" />
+                  <element signature="e#3877#3915#0" />
+                  <element signature="e#3917#3935#0" />
+                  <element signature="e#3952#3983#0" />
+                  <element signature="e#4032#4070#0" />
+                  <element signature="e#4076#4117#0" />
+                  <element signature="e#4165#4212#0" />
+                  <element signature="e#4288#4346#0" />
+                  <element signature="e#4416#4463#0" />
+                  <element signature="e#4465#4489#0" />
+                  <element signature="e#4533#4579#0" />
+                  <element signature="e#4608#4733#0" />
+                  <element signature="e#4796#4932#0" />
+                  <element signature="e#4980#5284#0" />
+                  <element signature="e#5347#5662#0" />
+                  <element signature="e#5664#5679#0" />
+                  <element signature="e#5737#5942#0" />
+                  <element signature="e#5944#5955#0" />
+                  <element signature="e#6229#6598#0" />
+                  <element signature="e#6600#6624#0" />
+                  <element signature="e#6953#7025#0" />
+                  <element signature="e#7027#7043#0" />
+                  <element signature="e#7243#7376#0" />
+                  <element signature="e#7378#7396#0" />
+                  <element signature="e#7398#7412#0" />
+                  <element signature="e#7414#7516#0" />
+                  <element signature="e#7518#7529#0" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/k8s/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="464">
+                <caret line="42" selection-start-line="42" selection-end-line="42" />
+                <folding>
+                  <element signature="e#589#741#0" />
+                  <element signature="e#743#842#0" />
+                  <element signature="e#983#1025#0" />
+                  <element signature="e#1198#1221#0" />
+                  <element signature="e#1362#1505#0" />
+                  <element signature="e#1508#1726#0" />
+                  <element signature="e#1734#1765#0" />
+                  <element signature="e#1766#2041#0" />
+                  <element signature="e#2042#2576#0" />
+                  <element signature="e#2743#3067#0" />
+                  <element signature="e#3075#3239#0" />
+                  <element signature="e#3663#3738#0" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/k8s/cluster/etcd.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#2418#2440#0" />
+                <element signature="e#3494#3586#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/k8s-install-scripts" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/k8s" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -190,7 +309,13 @@
             <path>
               <item name="k8s" type="b2602c69:ProjectViewProjectNode" />
               <item name="k8s" type="462c0819:PsiDirectoryNode" />
-              <item name="etcd-v3.2.4-linux-amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,7 +331,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541482145519" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541483384038" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="hal.phpmetrics.idea.settings.SettingsForm" />
@@ -238,12 +363,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541477830972</updated>
-      <workItem from="1541477834603" duration="1752000" />
+      <workItem from="1541477834603" duration="2875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1752000" />
+    <option name="totallyTimeSpent" value="2875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -254,8 +379,8 @@
       <window_info id="Favorites" sideWeight="0.50107527" side_tool="true" weight="0.24958587" />
       <window_info id="Designer" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.24958587" />
-      <window_info id="Structure" order="1" sideWeight="0.5008026" side_tool="true" visible="true" weight="0.24958587" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.882825" visible="true" weight="0.24958587" />
+      <window_info id="Structure" order="1" sideWeight="0.11717496" side_tool="true" visible="true" weight="0.24958587" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32938644" />
       <window_info anchor="bottom" id="Docker" />
@@ -311,30 +436,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etcd-v3.2.4-linux-amd64/etcd">
+    <entry file="file://$PROJECT_DIR$/etcd/etcd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/k8s-install-scripts/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="210">
-            <caret line="14" selection-start-line="14" selection-end-line="14" />
-            <folding>
-              <element signature="e#2397#2557#0" />
-              <element signature="e#3660#3735#0" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etcd-v3.2.4-linux-amd64/README.md">
+    <entry file="file://$PROJECT_DIR$/etcd/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
             <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etcd/READMEv2-etcdctl.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <folding>
+              <element signature="e#461#690#0" />
+              <element signature="e#692#708#0" />
+              <element signature="e#709#801#0" />
+              <element signature="e#962#1089#0" />
+              <element signature="e#1091#1105#0" />
+              <element signature="e#1106#1333#0" />
+              <element signature="e#1335#1350#0" />
+              <element signature="e#1351#1456#0" />
+              <element signature="e#1458#1472#0" />
+              <element signature="e#1473#1569#0" />
+              <element signature="e#1571#1584#0" />
+              <element signature="e#1585#1700#0" />
+              <element signature="e#1702#1720#0" />
+              <element signature="e#1721#1838#0" />
+              <element signature="e#1840#1853#0" />
+              <element signature="e#1854#1904#0" />
+              <element signature="e#1906#1925#0" />
+              <element signature="e#1926#1994#0" />
+              <element signature="e#1996#2004#0" />
+              <element signature="e#2006#2028#0" />
+              <element signature="e#2066#2124#0" />
+              <element signature="e#2202#2269#0" />
+              <element signature="e#2353#2447#0" />
+              <element signature="e#2525#2608#0" />
+              <element signature="e#2682#2743#0" />
+              <element signature="e#2793#2848#0" />
+              <element signature="e#2921#2954#0" />
+              <element signature="e#3025#3084#0" />
+              <element signature="e#3133#3166#0" />
+              <element signature="e#3169#3195#0" />
+              <element signature="e#3261#3305#0" />
+              <element signature="e#3379#3521#0" />
+              <element signature="e#3523#3546#0" />
+              <element signature="e#3593#3668#0" />
+              <element signature="e#3737#3805#0" />
+              <element signature="e#3877#3915#0" />
+              <element signature="e#3917#3935#0" />
+              <element signature="e#3952#3983#0" />
+              <element signature="e#4032#4070#0" />
+              <element signature="e#4076#4117#0" />
+              <element signature="e#4165#4212#0" />
+              <element signature="e#4288#4346#0" />
+              <element signature="e#4416#4463#0" />
+              <element signature="e#4465#4489#0" />
+              <element signature="e#4533#4579#0" />
+              <element signature="e#4608#4733#0" />
+              <element signature="e#4796#4932#0" />
+              <element signature="e#4980#5284#0" />
+              <element signature="e#5347#5662#0" />
+              <element signature="e#5664#5679#0" />
+              <element signature="e#5737#5942#0" />
+              <element signature="e#5944#5955#0" />
+              <element signature="e#6229#6598#0" />
+              <element signature="e#6600#6624#0" />
+              <element signature="e#6953#7025#0" />
+              <element signature="e#7027#7043#0" />
+              <element signature="e#7243#7376#0" />
+              <element signature="e#7378#7396#0" />
+              <element signature="e#7398#7412#0" />
+              <element signature="e#7414#7516#0" />
+              <element signature="e#7518#7529#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="464">
+            <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <folding>
+              <element signature="e#589#741#0" />
+              <element signature="e#743#842#0" />
+              <element signature="e#983#1025#0" />
+              <element signature="e#1198#1221#0" />
+              <element signature="e#1362#1505#0" />
+              <element signature="e#1508#1726#0" />
+              <element signature="e#1734#1765#0" />
+              <element signature="e#1766#2041#0" />
+              <element signature="e#2042#2576#0" />
+              <element signature="e#2743#3067#0" />
+              <element signature="e#3075#3239#0" />
+              <element signature="e#3663#3738#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s/cluster/etcd.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#2418#2440#0" />
+            <element signature="e#3494#3586#0" />
+          </folding>
         </state>
       </provider>
     </entry>
