@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalDependencies">
+    <plugin id="com.intellij.apacheConfig" />
+    <plugin id="com.jetbrains.php" />
+    <plugin id="com.kalessil.phpStorm.phpInspectionsEA" />
+    <plugin id="com.wbars.php.folding" />
+    <plugin id="org.jetbrains.plugins.phpstorm-docker" />
+  </component>
+</project>
