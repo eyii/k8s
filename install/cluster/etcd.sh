@@ -8,9 +8,6 @@
 #sh etcd.sh "node02" "172.16.120.152" "node01=http://172.16.120.151:2380,node02=http://172.16.120.152:2380,node03=http://172.16.120.153:2380"
 #sh etcd.sh "node03" "172.16.120.153" "node01=http://172.16.120.151:2380,node02=http://172.16.120.152:2380,node03=http://172.16.120.153:2380"
 
-echo '============================================================'
-echo '====================Disable selinux and firewalld...========'
-echo '============================================================'
 if [ $(getenforce) = "Enabled" ]; then
 setenforce 0
 fi
@@ -18,11 +15,7 @@ systemctl disable firewalld
 systemctl stop firewalld
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
 
-echo "Disable selinux and firewalld success!"
 
-echo '============================================================'
-echo '====================Downland etcd... ======================='
-echo '============================================================'
 ETCD_VERSION=v3.2.4
 echo "etcd version is $ETCD_VERSION"
 ETCD_FILE=etcd-$ETCD_VERSION-linux-amd64
@@ -33,10 +26,10 @@ if [ ! -f "./$ETCD_FILE.tar.gz" ]; then
   wget https://github.com/coreos/etcd/releases/download/$ETCD_VERSION/$ETCD_FILE.tar.gz
 fi
 
+if [ ! -f "./$ETCD_FILE.tar.gz" ]; then
+ echo './$ETCD_FILE.tar.gz 文件下载失败'
+fi
 
-echo '============================================================'
-echo '=====================Unzip etcd zip file... ================'
-echo '============================================================'
 tar xzvf $ETCD_FILE.tar.gz
 
 ETCD_BIN_DIR=/opt/kubernetes/bin
@@ -44,9 +37,6 @@ ETCD_CFG_DIR=/opt/kubernetes/cfg
 mkdir -p $ETCD_BIN_DIR
 mkdir -p $ETCD_CFG_DIR
 
-echo '============================================================'
-echo '=====================Install etcd... ======================='
-echo '============================================================'
 cp $ETCD_FILE/etcd $ETCD_BIN_DIR
 cp $ETCD_FILE/etcdctl $ETCD_BIN_DIR
 rm -rf $ETCD_FILE
@@ -120,9 +110,7 @@ Type=notify
 WantedBy=multi-user.target
 EOF
 
-echo '============================================================'
-echo '===================start etcd service... ==================='
-echo '============================================================'
+
 systemctl daemon-reload
 systemctl enable etcd
 systemctl restart etcd
