@@ -12,3 +12,9 @@ sh etcd.sh "n13" "${ipa}.13" ${cluster}
 第1个参数是etcd当前节点名称ETCD_NAME
 第2个参数是etcd当前节点IP地址ETCD_LISTEN_IP
 第3个参数是etcd集群地址ETCD_INITIAL_CLUSTER
+cat <<EOF >>/root/.bashrc
+alias cdi='cd /root/k8s/install/cluster'
+alias gc=' git clone https://github.com/eyii/k8s.git'
+alias rk8s='rm -rf /root/k8s'
+
+EOF
