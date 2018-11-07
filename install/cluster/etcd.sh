@@ -27,7 +27,8 @@ ETCD_VERSION=v3.2.4
 echo "etcd version is $ETCD_VERSION"
 ETCD_FILE=etcd-$ETCD_VERSION-linux-amd64
 echo "etcd zip file is $ETCD_FILE"
-
+etd_file_url=https://github.com/coreos/etcd/releases/download/$ETCD_VERSION/$ETCD_FILE.tar.gz
+echo $etd_file_url
 if [ ! -f "./$ETCD_FILE.tar.gz" ]; then
   wget https://github.com/coreos/etcd/releases/download/$ETCD_VERSION/$ETCD_FILE.tar.gz
 fi

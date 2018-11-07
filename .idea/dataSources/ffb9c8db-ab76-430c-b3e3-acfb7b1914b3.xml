@@ -2312,7 +2312,7 @@ type</ColNames>
     </column>
     <column id="436" parent="239" name="xpath_article_fields">
       <Position>32</Position>
-      <Comment>文章内容定位 每行一个标签定位 格式( 标签:xpath定位) 如 title://div[@id=&apos;content&apos;]/h1 </Comment>
+      <Comment>文章内容定位 每行一个标签定位 格式( 标签:xpath定位) 如 title://div[@id=&apos;content&apos;]/h1</Comment>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
