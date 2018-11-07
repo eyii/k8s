@@ -30,7 +30,7 @@ if [ ! -f "./$ETCD_FILE.tar.gz" ]; then
 fi
 
 tar xzvf $ETCD_FILE.tar.gz
-
+echo '解压 完'
 ETCD_BIN_DIR=/opt/kubernetes/bin
 ETCD_CFG_DIR=/opt/kubernetes/cfg
 mkdir -p $ETCD_BIN_DIR
@@ -39,7 +39,7 @@ mkdir -p $ETCD_CFG_DIR
 cp $ETCD_FILE/etcd $ETCD_BIN_DIR
 cp $ETCD_FILE/etcdctl $ETCD_BIN_DIR
 rm -rf $ETCD_FILE
-
+echo 'bash_profile 完'
 sed -i 's/$PATH:/$PATH:\/opt\/kubernetes\/bin:/g' ~/.bash_profile
 source ~/.bash_profile
 exec bash --login
