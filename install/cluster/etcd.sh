@@ -42,7 +42,7 @@ rm -rf $ETCD_FILE
 echo 'bash_profile 完'
 sed -i 's/$PATH:/$PATH:\/opt\/kubernetes\/bin:/g' ~/.bash_profile
 source ~/.bash_profile
-exec bash --login
+#exec bash --login
 
 ETCD_DATA_DIR=/var/lib/etcd
 mkdir -p ${ETCD_DATA_DIR}
