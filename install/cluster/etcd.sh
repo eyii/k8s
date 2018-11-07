@@ -46,7 +46,7 @@ exec bash --login
 
 ETCD_DATA_DIR=/var/lib/etcd
 mkdir -p ${ETCD_DATA_DIR}
-
+echo 'mkdir ${ETCD_DATA_DIR}'
 
 ETCD_NAME=${1:-"default"}
 ETCD_LISTEN_IP=${2:-"0.0.0.0"}

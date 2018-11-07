@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46fea238-016d-4e10-9356-c3b0628105f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/install/cluster/etcd.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install/cluster/etcd.sh" afterDir="false" />
-    </list>
+    <list default="true" id="46fea238-016d-4e10-9356-c3b0628105f9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,13 +87,13 @@
           <entry key="Vagrantfile" value="112" />
           <entry key="md" value="147" />
           <entry key="php" value="2" />
-          <entry key="sh" value="60" />
+          <entry key="sh" value="87" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="60" />
+          <entry key="Bash" value="87" />
           <entry key="Markdown" value="147" />
           <entry key="PHP" value="2" />
           <entry key="PLAIN_TEXT" value="8" />
@@ -158,8 +156,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/install/cluster/etcd.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-end-line="55" selection-end-column="9" />
+            <state relative-caret-position="465">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -322,6 +320,13 @@
               <item name="install" type="462c0819:PsiDirectoryNode" />
               <item name="cluster" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="k8s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+              <item name="install" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -338,7 +343,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541585997055" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541586040181" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -373,19 +378,18 @@
       <updated>1541477830972</updated>
       <workItem from="1541477834603" duration="19500000" />
       <workItem from="1541553341868" duration="2177000" />
-      <workItem from="1541580465498" duration="5110000" />
+      <workItem from="1541580465498" duration="5564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26787000" />
+    <option name="totallyTimeSpent" value="27241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8443497" visible="true" weight="0.25510767" />
-      <window_info id="Structure" order="1" sideWeight="0.15565032" side_tool="true" visible="true" weight="0.25510767" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86353946" visible="true" weight="0.25510767" />
+      <window_info id="Structure" order="1" sideWeight="0.13646056" side_tool="true" visible="true" weight="0.25510767" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -921,8 +925,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/install/cluster/etcd.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="465">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
