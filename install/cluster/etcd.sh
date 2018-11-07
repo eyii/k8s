@@ -83,7 +83,7 @@ Type=notify
 [Install]
 WantedBy=multi-user.target
 EOF
-
+echo '启动服务中'
 systemctl daemon-reload
 systemctl enable etcd
 systemctl restart etcd
