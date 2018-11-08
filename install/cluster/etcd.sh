@@ -22,6 +22,7 @@ ETCD_FILE=etcd-$ETCD_VERSION-linux-amd64
 etd_file_url=https://github.com/coreos/etcd/releases/download/$ETCD_VERSION/$ETCD_FILE.tar.gz
 echo $etd_file_url
 if [ ! -f "./$ETCD_FILE.tar.gz" ]; then
+  yum install wget -y
   wget https://github.com/coreos/etcd/releases/download/$ETCD_VERSION/$ETCD_FILE.tar.gz
 fi
 
