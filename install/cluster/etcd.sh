@@ -35,7 +35,7 @@ ETCD_BIN_DIR=/opt/kubernetes/bin
 ETCD_CFG_DIR=/opt/kubernetes/cfg
 mkdir -p $ETCD_BIN_DIR
 mkdir -p $ETCD_CFG_DIR
-
+ls $ETCD_FILE/etcd
 cp $ETCD_FILE/etcd $ETCD_BIN_DIR
 cp $ETCD_FILE/etcdctl $ETCD_BIN_DIR
 rm -rf $ETCD_FILE
@@ -87,4 +87,4 @@ echo '启动服务中'
 systemctl daemon-reload
 systemctl enable etcd
 systemctl restart etcd
-
+systemctl status etcd
